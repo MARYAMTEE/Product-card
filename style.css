@@ -1,0 +1,8 @@
+body{
+     background-color: hsl(30, 38%, 92%);
+}
+.card{
+    background-color: white;
+    margin: auto;
+    text-align: center;
+}
