@@ -1,8 +1,14 @@
+@media only screen and (min-width: 1200px) {
+    
+}
+
 body{
+    
      background-color: hsl(30, 38%, 92%);
 }
 .card{
     background-color: white;
     margin: auto;
     text-align: center;
+    max-width: 600px;
 }
