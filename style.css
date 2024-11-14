@@ -13,12 +13,26 @@ body{
     
 }
 .texts{
-padding-left: 20px;
+padding: 25px;
 }
+
 p{
     font-size: 14px;
 }
 
 .h-p{
     display: flex;
+
+}
+h1{
+    color: hsl(158, 36%, 37%);
+}
+
+button{
+    background-color:  hsl(158, 36%, 37%);
+    color: white;
+    border: none;
+    padding: 12px 70px;
+    font-size: 15px;
+    border-radius: 7px;
 }
