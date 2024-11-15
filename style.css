@@ -58,14 +58,14 @@ body{
             background-color:  hsl(158, 36%, 37%);
             color: white;
             border: none;
-            padding: 10px 50px;
+            padding: 10px 55px;
             font-size: 15px;
             border-radius: 7px;
         }
     }
 
 .texts{
-    padding: 20px;
+    padding: 23px;
 }
 
  p{ 
