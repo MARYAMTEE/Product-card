@@ -3,11 +3,23 @@ body{
     
      background-color: hsl(30, 38%, 92%);
 }
+/* desktop */
+@media only screen and (min-width: 1200px){
 .card{
     display: flex;
     background-color: white;
     max-width: 45%;
     margin: auto;
+}
+}
+
+/* mobile device */
+
+@media only screen and (min-width: 200px){
+    #cards{
+        background-color: white;
+        margin: auto;
+    }
 }
 .Rwd-pictures{
     
@@ -22,10 +34,9 @@ p{
 
 .h-p{
     display: flex;
-
 }
 h1{
-    color: hsl(158, 36%, 37%);
+  color: hsl(158, 36%, 37%);
 }
 
 button{
@@ -35,4 +46,8 @@ button{
     padding: 12px 70px;
     font-size: 15px;
     border-radius: 7px;
+}
+button:hover{
+    background-color: hsl(158, 25%, 42%);
+    border: 1px solid 
 }
