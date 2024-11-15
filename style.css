@@ -1,26 +1,50 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+    
+    h1, h2{
+        font-family: "Fraunces", serif;
+    }
+    h3{
+        font-family: "Montserrat", serif;
+        font-weight: 500;
+        font-size: small;
+        letter-spacing: 5px;
+        color: hsl(228, 12%, 48%)
+
+    }
+
 body{
     
      background-color: hsl(30, 38%, 92%);
 }
+/* mobile */
+    @media only screen and (min-width: 200px){
+        .card{
+            background-color: white;
+            margin: auto;
+            max-width: 330px;
+        }
+    }
+
 /* desktop */
-@media only screen and (min-width: 1200px){
-.card{
-    display: flex;
-    background-color: white;
-    max-width: 45%;
-    margin: auto;
-}
-}
+    @media only screen and (min-width: 1200px){
+            .card{
+                display: flex;
+                background-color: white;
+                max-width: 45%;
+                margin: auto;
+        }
+    }
+
 
 /* mobile device */
 
-@media only screen and (min-width: 200px){
+/* @media only screen and (min-width: 200px){
     #cards{
         background-color: white;
         margin: auto;
     }
-}
+} */
 .Rwd-pictures{
     
 }
@@ -39,6 +63,7 @@ h1{
   color: hsl(158, 36%, 37%);
 }
 
+
 button{
     background-color:  hsl(158, 36%, 37%);
     color: white;
@@ -51,3 +76,4 @@ button:hover{
     background-color: hsl(158, 25%, 42%);
     border: 1px solid 
 }
+
